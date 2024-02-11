@@ -10,6 +10,7 @@ function toggleFullscrenn() {
             console.error('Error attempting to enable fullscreen:', err);
     });
     element.style.background = 'white';
-    element.style.color = 'black';            
+    element.style.color = 'black';   
+             
 }
 }
