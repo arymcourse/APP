@@ -1,0 +1,372 @@
+
+body {
+   margin: 0;
+   background-color: black;
+   
+
+}
+header {
+   position: relative;
+   float: center;
+   background-image: url('../APP-1/images/image-header!.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+      width: 1440px;
+      height: 750px;
+   margin-left: 70px;
+   }
+
+   
+   .logo {
+      margin-top: 30px;
+      margin-left: 30px;
+
+   }
+
+#navigation .list li {
+    float: left;
+    padding: 0 20px;
+
+ }
+
+ 
+ #navigation .list li a {
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    
+}
+
+ #navigation .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ #navigation {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  bottom: 0;
+}
+#contact {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+}
+
+.arrowPicture {
+background-position: 50%;
+}
+
+.firstSection {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+   margin-top: 150px;
+
+}
+
+.title {
+   font-size: 50px;
+   color: white;
+   font-weight: 900;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.Section1 {
+   background-color: white;
+   width: 1440px;
+   height: 600px;
+   margin-left: 70px;
+   margin-top: -20px;
+
+
+}
+
+.image1 {  
+   float:right;
+   margin-right: -40px;
+   
+}
+
+.fig1 {
+   align-items: center;
+   padding-top: 200px;
+   padding-left: 100px;
+}
+
+.title1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 45px;
+}
+
+.description {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 30px;
+   color: #817f7f;
+}
+
+
+.LearnMoreLinks {
+   color: black;
+   text-decoration: none;
+   padding: 50px 0 0 30px;
+   border-bottom: 2mm solid hsl(50, 60%, 75%);
+   font-weight: 900;
+
+}
+
+.Section2 {
+   background-color: white;
+   width: 1440px;
+   height: 600px;
+   margin-left: 70px;
+   margin-top: -20px;
+   
+
+
+}
+
+.image2 {  
+   float:left;
+   margin-left: -40px;
+
+   
+}
+
+.fig2 {
+   float: right;
+   padding-top: 150px;
+   padding-right: 50px;
+}
+
+.title2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 45px;
+}
+
+.description2 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 30px;
+   color: #817f7f;
+}
+
+
+.LearnMoreLinks2 {
+   color: black;
+   text-decoration: none;
+   padding: 50px 0 0 30px;
+   border-bottom: 2mm solid hwb(318 71% 6%);
+   font-weight: 900;
+
+}
+
+.Section3 {
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+}
+
+
+.firstSide {
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondSide {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image3 {
+   padding-left: 69px;
+   
+}
+
+.image4 {
+   padding-right: 73px;
+   
+}
+
+
+.firstSideTextContent {
+      z-index: 1;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 415px;
+      padding-bottom: 100px;
+      padding: auto;
+      position: absolute;
+      bottom: 0;
+   }
+
+
+   .firstSide, .secondSide {
+      width: 100%;
+  }
+
+  .titleGraphicDesign {
+   font-size: 30px;
+   text-align: center;
+   color: #5d7579;
+  }
+
+  
+  .textGraphikDesign {
+   text-align: center;
+   color: #5d7579;
+   
+  }
+
+  /* .testimonials { 
+   padding: 100px;
+   background: #fffbf8;
+} */
+.titleFifthScreen {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 140px 0;
+}
+
+.reviews {
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   justify-content: center;
+   column-gap: 170px;
+}
+
+.reviewBody {
+   max-width: 360px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.testimonials { 
+   padding: 220px;
+   background: #fffbf8;
+   margin:0 73px 0 70px;
+   
+}
+
+.titleFifthScreen {
+   font-family: Fraunces;
+   font-weight: 700;
+   font-size: 30px;
+   color: #a9a9a9;
+   text-transform: uppercase;
+   letter-spacing: 8px;
+}
+
+.clientPortrait {
+   border-radius: 80px;
+   width: 80px;
+   height: 80px;
+   margin: 0 0 30px 0;
+}
+
+.reviewText {
+   font-family: Barlow;
+   font-weight: 500;
+   font-size: 18px;
+   color: #4e4e4e;
+   line-height: 28px;
+   text-align: center;
+   margin: 0 0 60px 0;
+}
+
+.clientName {
+   font-family: Fraunces;
+   font-weight: 700;
+   font-size: 20px;
+   color: #0d2149;
+   text-align: center;
+   margin: 0 0 5px 0;
+}
+
+.clientPosition {
+   font-family: Barlow;
+   font-weight: 500;
+   font-size: 18px;
+   color: #686868;
+   line-height: 28px;
+   text-align: center
+}
+
+
+.gallery {
+   display: flex;
+   flex-direction: row;
+   max-width: 100%;
+   padding-right: 72px;
+   padding-left: 69px;
+}
+
+.galleryImage {
+   width: 25%;
+}
+.footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 120px;
+   margin: 0 72px 0 69px;
+   }
+
+.footerNavList {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0;
+   column-gap: 80px;
+   padding: 0;
+}
+
+.footerNavListItem a{
+   text-decoration: none;
+   color: inherit;
+}
+
+.footerSocial {
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   justify-content: center;
+   column-gap: 30px;
+   padding: 30px;
+}
+
+
+.footer {
+   background: #90d4c5;
+}
+
+.footerLogo {
+   height: 40px;
+   padding: 30px;
+}
+
+.footerNavListItem {
+   cursor: pointer;
+   font-family: Barlow;
+   font-weight: 600;
+   font-size: 18px;
+   color: #2b7463;
+   padding: 30px;
+}   
